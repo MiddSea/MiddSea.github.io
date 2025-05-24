@@ -1,57 +1,31 @@
-# Make Your Game
+# Make Your Game - Breakout
 
-A JavaScript browser game project for grit:lab curriculum.
-
-## Project Overview
-
-This project is part of the grit:lab curriculum where we'll be building a browser game using JavaScript. The project will demonstrate:
-
-- JavaScript game programming concepts
-- DOM manipulation
-- Model-View-Controller (MVC) architecture
-- Game design principles (MDA - Mechanics, Dynamics, Aesthetics)
-- Git version control and collaboration
-- Error handling and debugging techniques
+A classic Breakout game implementation using vanilla JavaScript, following the MDA (Mechanics, Dynamics, Aesthetics) framework.
 
 ## Project Structure
 
+- `src/` - Game source code
+- `assets/` - Images and sounds
+- `docs/` - User documentation
+- `.notes/` - Development notes (dev branch only)
+
+## Development
+
+This game is being developed as part of the grit:lab curriculum, focusing on:
+- 60 FPS performance
+- Smooth keyboard controls
+- No frameworks - pure JS/DOM manipulation
+- MDA framework for game design
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://01.gritlab.ax/git/smiddleto/make-your-game.git
+
+# Open index.html in your browser
 ```
-make-your-game/
-├── README.md           # Project documentation
-├── .gitignore         # Git ignore file
-├── docs/              # Documentation folder
-│   ├── GAME_DESIGN.md # Game design document
-│   ├── TECHNICAL.md   # Technical documentation
-│   └── LEARNING.md    # Learning journal
-├── src/               # Source code
-│   ├── index.html     # Main HTML file
-│   ├── css/          # Stylesheets
-│   ├── js/           # JavaScript files
-│   └── assets/       # Game assets
-└── tests/            # Test files
-```
-
-## Getting Started
-
-1. Clone the repository
-2. Open `index.html` in a modern web browser
-3. Follow the development documentation in the `docs/` folder
-
-## Development Workflow
-
-This project uses a Git Flow-like branching strategy:
-- `main` - Production-ready code
-- `dev` - Development branch for integration
-- `feature/*` - Feature branches for new functionality
 
 ## Documentation
 
-All development processes, concepts learned, and debugging experiences are documented in the `docs/` folder.
-
-## Author
-
-Sean Middleton (@smiddleto)
-
-## License
-
-This project is part of the grit:lab curriculum.
+See the `docs/` directory for detailed documentation on gameplay and controls.
