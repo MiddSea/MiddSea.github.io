@@ -16,7 +16,7 @@ Thumbs.db
 *.log
 
 # Development notes (excluded from main branch)
-.notes/
+# .notes/
 
 # Temporary files
 *.tmp
