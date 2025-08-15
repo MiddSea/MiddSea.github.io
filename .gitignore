@@ -2,19 +2,21 @@
 .DS_Store
 Thumbs.db
 
-# Editor directories and files
+# Editor files
 .idea/
 .vscode/
 *.swp
 *.swo
-*~
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/*local*
 
 # Logs
 *.log
 
-# Development notes (only in dev branch)
-# .notes/ is intentionally not ignored here
-# It will be removed when merging to main
+# Development notes (excluded from main branch)
+.notes/
 
 # Temporary files
 *.tmp
