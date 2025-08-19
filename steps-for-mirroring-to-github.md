@@ -1,4 +1,4 @@
-# Steps for mirroring to gitHub
+git # Steps for mirroring to gitHub
 
 ## Step 1: Verify we're in the right place and state
 
